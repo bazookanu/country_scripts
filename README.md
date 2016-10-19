@@ -6,10 +6,14 @@ I got them from Wikipedia. To clean the Wiki list of countries, country_scripts 
 start python in interactive mode
 
 import country_scripts
+
 dt = country.scripts.Dirty()
+
 dt.generate_go('countries.list', 'country.codes')
+
 <will print the country codes>
 
 To clean up countries.list:
+
 dt.clean_up_list('countries.list')
 
